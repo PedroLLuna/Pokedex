@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex-Basic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="/assets/pokemon_PNG98.png" alt="Pokemon pictures" height="120px">
+        <h1>Pokédex Basic</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="pokedex">
+        <img id="pokemon-img" src="" alt="Pokemon" />
+
+        <h2 id="pokemon-name">Name</h2>
+        <p id="pokemon-id">ID: </p>
+        <p id="pokemon-type">Type: </p>
+
+            <input type="text" id="searchInput" placeholder="Search for a Pokémon...">
+            <button id="searchButton">Search</button>
+
+            <div class="nav">
+                <button id="prevButton">Previous</button>
+                <button id="nextButton">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+        
+</body>
+</html>
